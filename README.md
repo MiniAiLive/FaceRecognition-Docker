@@ -1,11 +1,11 @@
 <div align="center">
-   <h1>Face Recognition Windows SDK</h1>
+   <h1>Face Recognition Docker</h1>
    <img src=https://miniai.live/wp-content/uploads/2024/02/logo_name-1-768x426-1.png alt="MiniAiLive Logo"
    width="300">
 </div>
 
 ## Welcome to the [MiniAiLive](https://www.miniai.live/)!
-Check the likelihood that two faces belong to the same person. You will get a confidence score and thresholds to evaluate the similarity. Feel free to use our MiniAI Face Recognition Windows SDK.
+Check the likelihood that two faces belong to the same person. You will get a confidence score and thresholds to evaluate the similarity. Feel free to use our MiniAI Face Recognition Docker.
 
 > **Note**
 >
@@ -29,11 +29,11 @@ Check the likelihood that two faces belong to the same person. You will get a co
 
 ### Installation Steps
 
-1. **Download the Face Recognition Windows Server Installer:**
+1. **Download the Face Recognition Docker Image:**
 
-   Download the Server installer for your operating system from the following link:
+   Download the Server Docker Image from the following link:
    
-   [Download the On-premise Server Installer](https://drive.google.com/file/d/1cNaJETo2liaAn0ijXqM45B6sNEhbNj6L/view?usp=sharing)
+   [Download the On-premise Server Docker Image](https://drive.google.com/file/d/1cNaJETo2liaAn0ijXqM45B6sNEhbNj6L/view?usp=sharing)
 
 2. **Install the On-premise Server:**
 
