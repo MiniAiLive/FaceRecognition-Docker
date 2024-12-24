@@ -24,8 +24,8 @@ Check the likelihood that two faces belong to the same person. You will get a co
 
 - Python 3.6+
 - Linux
-- CPU: 2cores or more
-- RAM: 8GB or more
+- CPU: 2 cores or more
+- RAM: 8 GB or more
 
 ### Installation Steps
 
@@ -33,7 +33,7 @@ Check the likelihood that two faces belong to the same person. You will get a co
 
    Download the Server Docker Image from the following link:
    
-   [Download the On-premise Server Docker Image](https://drive.google.com/file/d/1cNaJETo2liaAn0ijXqM45B6sNEhbNj6L/view?usp=sharing)
+   [Download the On-premise Server Docker Image](https://drive.google.com/file/d/1_7qyudkQ8rcuseZIRLaBRUPFQUpm_LBM/view?usp=sharing)
 
 2. **Install the On-premise Docker Server:**
 
