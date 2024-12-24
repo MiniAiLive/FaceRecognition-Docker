@@ -121,7 +121,7 @@ We have included a Gradio demo to showcase the capabilities of our Face Recognit
    First, you need to install Gradio. You can do this using pip:
 
    ```sh
-   git clone https://github.com/MiniAiLive/FaceRecognition-Windows.git
+   git clone https://github.com/MiniAiLive/FaceRecognition-Docker.git
    pip install -r requirement.txt
    cd gradio
    ```
