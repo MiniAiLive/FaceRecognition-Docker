@@ -205,11 +205,11 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## Our Products
 No | Project | Feature
 ---|---|---|
-1 | [FaceRecognition-Linux](https://github.com/MiniAiLive/FaceRecognition-Linux) | 1:N Face Matching
-2 | [FaceRecognition-Windows](https://github.com/MiniAiLive/FaceRecognition-Windows) | 1:N Face Matching
-3 | [FaceRecognition-Docker](https://github.com/MiniAiLive/FaceRecognition-Docker) | 1:N Face Matching
-4 | [FaceRecognition-Android](https://github.com/MiniAiLive/FaceRecognition-Android) | 1:N Face Matching, 2D & 3D Face Passive LivenessDetection
-5 | [FaceRecognition-LivenessDetection-Windows](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Windows) | 1:N Face Matching, 2D & 3D Face Passive LivenessDetection
+1 | [FaceRecognition-Linux](https://github.com/MiniAiLive/FaceRecognition-Linux) | 1:1 & 1:N Face Matching
+2 | [FaceRecognition-Windows](https://github.com/MiniAiLive/FaceRecognition-Windows) | 1:1 & 1:N Face Matching
+3 | [FaceRecognition-Docker](https://github.com/MiniAiLive/FaceRecognition-Docker) | 1:1 & 1:N Face Matching
+4 | [FaceRecognition-Android](https://github.com/MiniAiLive/FaceRecognition-Android) | 1:1 & 1:N Face Matching, 2D & 3D Face Passive LivenessDetection
+5 | [FaceRecognition-LivenessDetection-Windows](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Windows) | 1:1 & 1:N Face Matching, 2D & 3D Face Passive LivenessDetection
 6 | [FaceLivenessDetection-Linux](https://github.com/MiniAiLive/FaceLivenessDetection-Linux) | 2D & 3D Face Passive LivenessDetection
 7 | [FaceLivenessDetection-Windows](https://github.com/MiniAiLive/FaceLivenessDetection-Windows) | 2D & 3D Face Passive LivenessDetection
 8 | [FaceLivenessDetection-Docker](https://github.com/MiniAiLive/FaceLivenessDetection-Docker) | 2D & 3D Face Passive LivenessDetection
