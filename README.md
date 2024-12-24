@@ -18,14 +18,14 @@ Check the likelihood that two faces belong to the same person. You will get a co
 - [Gradio Demo](#gradio-demo)
 - [Python Test API Example](#python-test-api-example)
 
-## FaceSDK Installation Guide
+## FaceSDK Docker Installation Guide
 
 ### Prerequisites
 
 - Python 3.6+
-- Windows
+- Linux
 - CPU: 2cores or more
-- RAM: 4GB or more
+- RAM: 8GB or more
 
 ### Installation Steps
 
@@ -35,32 +35,45 @@ Check the likelihood that two faces belong to the same person. You will get a co
    
    [Download the On-premise Server Docker Image](https://drive.google.com/file/d/1cNaJETo2liaAn0ijXqM45B6sNEhbNj6L/view?usp=sharing)
 
-2. **Install the On-premise Server:**
+2. **Install the On-premise Docker Server:**
 
-   Run the installer and follow the on-screen instructions to complete the installation.
+   Run the Docker Image and follow the on-screen instructions to complete the installation. Go to the Download folder and run this command.
+   ```sh
+   $ cd Download
+   $ sudo docker load -i MiniAiLive-FaceSDK-DockerImg.tar
+   ```
    <div align="center">
-      <img src="https://github.com/user-attachments/assets/3438fa1c-f869-4ac0-85fc-762716da09bc" width="450" />
+      <img src="https://github.com/user-attachments/assets/534d8db7-c66c-429b-a89e-7499b0c362b5" width="450" />
    </div>
-
+   You can refer our Documentation here. https://docs.miniai.live
+   
 3. **Request License and Update:**
 
-   Run MIRequest.exe file to generate a license request file. You can find it here.
-   
-   > C:\Program Files\MiniAiLive\MiniAiLive-FaceSDK-WinServer
-
-   Open it, generate a license request file, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
+   You can generate the License Request file by using this command:
+   ```sh
+   $ sudo ./MiRequest_FaceSDK request /home/ubuntu/Download/trial.miq
+   ```
    <div align="center">
-      <img src="https://github.com/user-attachments/assets/d54686be-c7d8-42ba-8c57-f62fe1ec81e3" width="300" />
-      <img src="https://github.com/user-attachments/assets/e33757a7-7fb1-411e-8136-129800198773" width="300" />
-      <img src="https://github.com/user-attachments/assets/f34cdb2d-2b4e-48ec-b303-fd38cf128336" width="300" />
-      <img src="https://github.com/user-attachments/assets/b1579722-462c-478a-9106-67b9a10b3514" width="300" />
+      <img src=https://github.com/user-attachments/assets/ce855b79-445a-474f-b737-5679f5fb05bc alt="MiniAiLive Installer">
+   </div>
+   Then you can see the license request file on your directory, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
+   
+   ```sh
+   $ sudo docker run -d --privileged -v /home/ubuntu/Downloads/trial.mis:/var/facesdk.license -p {your_port}:8083 mini-facesdk-server
+   ```
+   <div align="center">
+      <img src=https://github.com/user-attachments/assets/c172095f-543e-4422-8276-9bd7e166f5ee alt="MiniAiLive Installer">
    </div>
 
 4. **Verify Installation:**
 
-   After installation, verify that the On-premise Server is correctly installed by checking the task manager:
+   After installation, verify that the On-premise Server is correctly installed by using this command:
+   ```sh
+   $ netstat -tnpl
+   ```
+   If you can see opened your port correctly, the server has been installed successfully. Refer the below image.
    <div align="center">
-      <img src="https://github.com/user-attachments/assets/98e87782-073d-475c-962f-37151ef9754f" width="450" />
+      <img src=https://github.com/user-attachments/assets/1abcc33c-5e70-4ee6-ba61-4f18a994f0cb alt="MiniAiLive Installer">
    </div>
 
 ## FaceSDK API Details
