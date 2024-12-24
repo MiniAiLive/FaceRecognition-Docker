@@ -43,7 +43,7 @@ Check the likelihood that two faces belong to the same person. You will get a co
    $ sudo docker load -i MiniAiLive-FaceSDK-DockerImg.tar
    ```
    <div align="center">
-      <img src="https://github.com/user-attachments/assets/534d8db7-c66c-429b-a89e-7499b0c362b5" width="450" />
+      <img src="https://github.com/user-attachments/assets/534d8db7-c66c-429b-a89e-7499b0c362b5" />
    </div>
    You can refer our Documentation here. https://docs.miniai.live
    
