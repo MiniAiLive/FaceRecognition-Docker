@@ -33,7 +33,7 @@ Check the likelihood that two faces belong to the same person. You will get a co
 
    Download the Server Docker Image from the following link:
    
-   [Download the On-premise Server Docker Image](https://drive.google.com/file/d/1_7qyudkQ8rcuseZIRLaBRUPFQUpm_LBM/view?usp=sharing)
+   [Download the On-premise Server Installer](https://drive.google.com/file/d/15V-ziyGud6zI6pwcI7NsE_dTPi2sUzQa/view?usp=sharing)
 
 2. **Install the On-premise Docker Server:**
 
@@ -45,12 +45,14 @@ Check the likelihood that two faces belong to the same person. You will get a co
    <div align="center">
       <img src="https://github.com/user-attachments/assets/534d8db7-c66c-429b-a89e-7499b0c362b5" />
    </div>
+   
    You can refer our Documentation here. https://docs.miniai.live
    
 3. **Request License and Update:**
 
    You can generate the License Request file by using this command:
    ```sh
+   $ sudo chmod 777 ./MiRequest_FaceSDK
    $ sudo ./MiRequest_FaceSDK request /home/ubuntu/Download/trial.miq
    ```
    <div align="center">
